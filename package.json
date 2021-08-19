@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Tired of slecting background colors for your images? use avg-color-gen. Just pass an image of your choice and it will give you an avg color by scanning the image. ",
   "main": "index.js",
+"type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +12,14 @@
     "url": "git+https://github.com/sankshitpandoh/avg-color-gen.git"
   },
   "keywords": [
+    "fast",
     "javaScript",
     "color",
     "average",
-    "color",
+    "colour",
     "images",
-    "backgrounds"
+    "backgrounds",
+    "canvas"
   ],
   "author": "Sankshit pandoh",
   "license": "ISC",

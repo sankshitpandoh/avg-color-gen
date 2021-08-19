@@ -1,5 +1,11 @@
 ## Prerequisies
-This lightweight package with 0 dependencies works only in browsers and not in Node CLI because it uses HTML canvas.
+A very simple lightweight package that calculates the average color of any images in browser environment.
+
+- Image must be passed in a base64 format
+- It is not meant to process video files directly, but a work around for that would be,
+ print a single frame of video on <Canvas> and then convert it into base64.
+ Then pass the resulting base64 to getAverageColor 
+
 
 
 

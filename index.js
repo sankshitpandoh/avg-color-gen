@@ -31,6 +31,7 @@ const getAverageColor = (base64img, opacity) => {
                 data = context.getImageData(0, 0, width, height);
             } catch(error) {
                 // Error handling in case of any faiure in GETTING image
+                // Because of base64 utilization, this shoudld never reach here
                 reject({
                     status: "failed",
                     reason: "Error in getting image data"
