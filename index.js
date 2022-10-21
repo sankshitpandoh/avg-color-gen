@@ -61,6 +61,13 @@ const getAverageColor = (base64img, opacity) => {
                 color: `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, ${opacity ? opacity : "0.09"})`
             });    
         }
+        img.onerror = (e) => {
+            reject({
+                status: "failed",
+                reason: "Error in loading image data"
+                details: e
+            });
+        }
 
     })
 }
